@@ -50,21 +50,21 @@ function App() {
           <Row className="text-center">
             <Col md={4} className="mb-4">
               <div className="p-4 border rounded shadow-sm h-100">
-                <i className="bi bi-shield-fill-exclamation fs-1 text-danger mb-3"></i>
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&h=300&fit=crop" alt="Security Risk" className="img-fluid mb-3 rounded" style={{ maxHeight: '150px', objectFit: 'cover' }} />
                 <h3 className="h5 mb-3">セキュリティリスクの増大</h3>
                 <p>サポート終了後はセキュリティ更新が提供されず、ウイルス感染や情報漏洩のリスクが高まります。</p>
               </div>
             </Col>
             <Col md={4} className="mb-4">
               <div className="p-4 border rounded shadow-sm h-100">
-                <i className="bi bi-person-x-fill fs-1 text-warning mb-3"></i>
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c76d?q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&h=300&fit=crop" alt="IT Resource Shortage" className="img-fluid mb-3 rounded" style={{ maxHeight: '150px', objectFit: 'cover' }} />
                 <h3 className="h5 mb-3">IT担当者不足・リソース不足</h3>
                 <p>社内にIT担当者がいない、またはリソースが足りず、移行作業が進まない。</p>
               </div>
             </Col>
             <Col md={4} className="mb-4">
               <div className="p-4 border rounded shadow-sm h-100">
-                <i className="bi bi-arrow-repeat fs-1 text-info mb-3"></i>
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&h=300&fit=crop" alt="Business Interruption Anxiety" className="img-fluid mb-3 rounded" style={{ maxHeight: '150px', objectFit: 'cover' }} />
                 <h3 className="h5 mb-3">業務停止への不安</h3>
                 <p>移行作業中に業務が止まってしまうのではないか、データが消えてしまうのではないかと心配。</p>
               </div>
