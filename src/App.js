@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav, Button, Row, Col } from 'react-bootstrap';
+import ContactForm from './components/ContactForm'; // ContactFormをインポート
 import './App.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
               <Nav.Link href="#cases">導入事例</Nav.Link>
               <Nav.Link href="#price">料金</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
-              <Button variant="primary" className="ms-3">無料相談・お見積もり</Button>
+              <Nav.Link href="#contact">お問い合わせ</Nav.Link> {/* お問い合わせリンクを追加 */}
+              <Button variant="primary" className="ms-3" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>無料相談・お見積もり</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -30,8 +32,8 @@ function App() {
             <Col md={7}>
               <h1 className="display-4 fw-bold mb-3">Windows 10サポート終了間近！<br/>中小企業のPC移行、丸ごと安心サポート。</h1>
               <p className="lead mb-4">データ移行から設定最適化まで、プロが迅速・丁寧に代行。業務停止リスクを最小限に。</p>
-              <Button variant="primary" size="lg" className="me-3">無料相談・お見積もりはこちら</Button>
-              <Button variant="outline-secondary" size="lg">資料ダウンロード</Button>
+              <Button variant="primary" size="lg" className="me-3" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>無料相談・お見積もりはこちら</Button>
+              <Button variant="outline-secondary" size="lg" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>資料ダウンロード</Button>
             </Col>
             <Col md={5}>
               {/* Placeholder for image */}
@@ -328,11 +330,16 @@ function App() {
         </Container>
       </section>
 
-      {/* CTA Section (Placeholder) */}
+      {/* Contact Section */}
+      <section id="contact" className="contact-section py-5">
+        <ContactForm />
+      </section>
+
+      {/* CTA Section */}
       <section id="cta" className="cta-section py-5 text-center bg-primary text-white">
         <Container>
           <h2 className="mb-4">Windows 11へのスムーズな移行を、今すぐご相談ください！</h2>
-          <Button variant="light" size="lg">無料相談・お見積もりはこちら</Button>
+          <Button variant="light" size="lg" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>無料相談・お見積もりはこちら</Button>
         </Container>
       </section>
 
