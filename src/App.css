@@ -98,7 +98,7 @@ h2::after {
 }
 
 /* Problem, Solution, Services, Features Sections */
-.problem-section, .solution-section, .services-section, .features-section, .cases-section, .price-section, .faq-section {
+.problem-section, .solution-section, .services-section, .features-section, .cases-section, .price-section, .faq-section, .contact-section {
   padding: 80px 0;
 }
 
@@ -106,7 +106,7 @@ h2::after {
   background-color: #f8f9fa !important;
 }
 
-.problem-section .p-4, .solution-section .p-4, .services-section .p-4, .features-section .p-4, .cases-section .p-4, .price-section .p-4, .faq-section .accordion-item {
+.problem-section .p-4, .solution-section .p-4, .services-section .p-4, .features-section .p-4, .cases-section .p-4, .price-section .p-4, .faq-section .accordion-item, .contact-section .p-4 {
   background-color: white;
   border-radius: 8px !important;
   box-shadow: 0 4px 15px rgba(0,0,0,.08) !important;
@@ -244,7 +244,57 @@ h2::after {
 }
 
 /* Responsive Adjustments */
+@media (max-width: 992px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  .problem-section .p-4, .solution-section .p-4, .services-section .p-4, .features-section .p-4 {
+    padding: 25px;
+  }
+
+  .problem-section i, .solution-section i, .services-section i, .features-section i {
+    font-size: 3rem;
+  }
+
+  .problem-section h3, .solution-section h3, .services-section h3, .features-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .problem-section p, .solution-section p, .services-section p, .features-section p {
+    font-size: 1rem;
+  }
+
+  .cases-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .price-section .fs-2 {
+    font-size: 2rem !important;
+  }
+
+  .faq-section .accordion-button {
+    font-size: 1.1rem;
+  }
+
+  .cta-section h2 {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .hero-section {
+    padding: 80px 0;
+  }
+
   .hero-section h1 {
     font-size: 2.5rem;
   }
@@ -262,11 +312,70 @@ h2::after {
     font-size: 2rem;
   }
 
-  .problem-section, .solution-section, .services-section, .features-section, .cases-section, .price-section, .faq-section, .cta-section {
+  .problem-section, .solution-section, .services-section, .features-section, .cases-section, .price-section, .faq-section, .contact-section, .cta-section {
     padding: 60px 0;
   }
 
   .cta-section h2 {
     font-size: 2rem;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav .btn {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .hero-section .img-fluid {
+    margin-top: 40px;
+  }
+
+  .contact-section .p-4 {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .problem-section .p-4, .solution-section .p-4, .services-section .p-4, .features-section .p-4, .cases-section .p-4, .price-section .p-4, .faq-section .accordion-item, .contact-section .p-4 {
+    padding: 15px;
+  }
+
+  .problem-section i, .solution-section i, .services-section i, .features-section i {
+    font-size: 2.5rem;
+  }
+
+  .problem-section h3, .solution-section h3, .services-section h3, .features-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .problem-section p, .solution-section p, .services-section p, .features-section p {
+    font-size: 0.9rem;
+  }
+
+  .price-section .fs-2 {
+    font-size: 1.8rem !important;
+  }
+
+  .faq-section .accordion-button {
+    font-size: 1rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.8rem;
   }
 }
