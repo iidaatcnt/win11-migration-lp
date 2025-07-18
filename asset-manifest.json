@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/win11-migration-lp/static/css/main.71f3b386.css",
+    "main.js": "/win11-migration-lp/static/js/main.23b7a9c8.js",
+    "static/js/453.0b8a067c.chunk.js": "/win11-migration-lp/static/js/453.0b8a067c.chunk.js",
+    "index.html": "/win11-migration-lp/index.html",
+    "main.71f3b386.css.map": "/win11-migration-lp/static/css/main.71f3b386.css.map",
+    "main.23b7a9c8.js.map": "/win11-migration-lp/static/js/main.23b7a9c8.js.map",
+    "453.0b8a067c.chunk.js.map": "/win11-migration-lp/static/js/453.0b8a067c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f3b386.css",
+    "static/js/main.23b7a9c8.js"
+  ]
+}
