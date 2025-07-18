@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 80px 0;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  color: #343a40; /* Dark gray text */
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: #6c757d; /* Medium gray text */
+}
+
+.hero-section .btn {
+  margin: 10px;
+}
+
+.problem-section .card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.problem-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.problem-section .card-title {
+  color: #007bff; /* Primary blue for titles */
+}
+
+.problem-section i {
+  font-size: 3rem;
+  color: #007bff; /* Primary blue for icons */
+}
+
+.cta-section {
+  background-color: #007bff; /* Primary blue background */
+  color: white;
+}
+
+.cta-section .btn {
+  background-color: white;
+  color: #007bff;
+  border: none;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #f8f9fa; /* Light text */
+  padding: 20px 0;
+}
