@@ -35,7 +35,7 @@ function App() {
             </Col>
             <Col md={5}>
               {/* Placeholder for image */}
-              <img src="https://via.placeholder.com/400x300?text=Windows+11+Migration" alt="Windows 11 Migration" className="img-fluid rounded shadow-lg" />
+              <img src="https://via.placeholder.com/500x350?text=Windows+11+Migration+Service" alt="Windows 11 Migration" className="img-fluid rounded shadow-lg" />
             </Col>
           </Row>
         </Container>
